@@ -1,0 +1,27 @@
+* {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    font-size: 100px;
+    background-color: darkblue;
+    border-color: lightskyblue;
+    border-width: 10px;
+    margin: 50px;
+}
+
+#die {
+    width: 256px;
+    height: 256px;
+}
