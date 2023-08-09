@@ -18,10 +18,9 @@ button {
     background-color: darkblue;
     border-color: lightskyblue;
     border-width: 10px;
-    margin: 50px;
+    margin: 5px;
 }
 
-#die {
-    width: 256px;
-    height: 256px;
+#d {
+    font-size: 200px;
 }
