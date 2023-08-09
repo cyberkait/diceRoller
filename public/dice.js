@@ -2,7 +2,11 @@ const socket = io();
 
 
 var rollBtn = document.getElementById("roll-btn");
-rollBtn.addEventListener("click", function () { console.log("Preparing to roll."); socket.emit("roll") })
+rollBtn.addEventListener("click", function () {
+    let sound = new Audio("roll.wav");
+    sound.play();
+    socket.emit("roll")
+})
 
 
 function displayDie(v) {
